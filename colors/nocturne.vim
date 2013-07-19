@@ -50,10 +50,10 @@ hi Underlined   guifg=#f5f5f5 guibg=NONE    gui=underline
 " User Interface
 " ==============================================================================
 " Cursor
-hi Cursor       guifg=NONE     guibg=NONE    gui=reverse
+hi Cursor       guifg=NONE     guibg=NONE   gui=reverse
 
 " Matching parenthesis and brackets
-hi MatchParen   guifg=#f5f5f5  guibg=#ff8700 gui=NONE
+hi MatchParen   guifg=#f5f5f5 guibg=#ff8700 gui=NONE
 
 " Search
 hi IncSearch    guifg=#ffff00 guibg=#4e4e4e gui=NONE
@@ -64,49 +64,49 @@ hi VertSplit    guifg=#4e4e4e guibg=#1c1c1c gui=reverse
 hi StatusLine   guifg=#f5f5f5 guibg=#1c1c1c gui=NONE
 hi StatusLineNC guifg=#4e4e4e guibg=NONE    gui=NONE
 hi Wildmenu     guifg=#000000 guibg=#ffff00 gui=bold
-hi ColorColumn  guibg=#1c1c1c guibg=NONE    gui=NONE
+hi ColorColumn  guifg=NONE    guibg=#1c1c1c gui=NONE
 hi LineNr       guifg=#303030 guibg=NONE    gui=NONE
 hi CursorLineNr guifg=#4e4e4e guibg=NONE    gui=NONE
 hi! link        CursorColumn  ColorColumn
 hi! link        CursorLine    ColorColumn
 
 " Non-display characters
-hi NonText     guifg=#0000ff guibg=NONE gui=bold
-hi SpecialKey  guifg=#ffffff guibg=NONE gui=bold
+hi NonText      guifg=#0000ff guibg=NONE    gui=bold
+hi SpecialKey   guifg=#ffffff guibg=NONE    gui=bold
 
 " Popup Menu
-hi Pmenu       guifg=#000000 guibg=#d0d0d0 gui=NONE
-hi PmenuSel    guifg=#000000 guibg=#d700ff gui=bold
-hi PmenuSbar   guifg=#000000 guibg=#000000 gui=NONE
-hi PmenuThumb  guifg=#000000 guibg=#000000 gui=NONE
+hi Pmenu        guifg=#000000 guibg=#d0d0d0 gui=NONE
+hi PmenuSel     guifg=#000000 guibg=#d700ff gui=bold
+hi PmenuSbar    guifg=#000000 guibg=#000000 gui=NONE
+hi PmenuThumb   guifg=#000000 guibg=#000000 gui=NONE
 
 " Visual Mode
-hi Visual      guifg=NONE    guibg=#005fd7 gui=NONE
+hi Visual       guifg=NONE    guibg=#005fd7 gui=NONE
 
-" Warnings and errors
-hi WarningMsg  guifg=#ff8700 guibg=NONE    gui=NONE
-hi ErrorMsg    guifg=#ff0000 guibg=NONE    gui=NONE
-hi! link       Error         ErrorMsg
+" Warnings and  errors
+hi WarningMsg   guifg=#ff8700 guibg=NONE    gui=NONE
+hi ErrorMsg     guifg=#ff0000 guibg=NONE    gui=NONE
+hi! link        Error         ErrorMsg
 
 " Statusline
-hi MoreMsg     guifg=#00ff00 guibg=NONE    gui=NONE
-hi! link       ModeMsg       MoreMsg
+hi MoreMsg      guifg=#00ff00 guibg=NONE    gui=NONE
+hi! link        ModeMsg       MoreMsg
 
 " Folds
-hi Folded      guifg=#d0d0d0 guibg=#303030 gui=NONE
-hi FoldColumn  guifg=#d0d0d0 guibg=NONE    gui=NONE
+hi Folded       guifg=#d0d0d0 guibg=#303030 gui=NONE
+hi FoldColumn   guifg=#d0d0d0 guibg=NONE    gui=NONE
 
 " Signs
-hi SignColumn  guifg=#d0d0d0 guibg=#303030 gui=NONE
+hi SignColumn   guifg=#d0d0d0 guibg=#303030 gui=NONE
 
 " Vimdiff
-hi DiffAdd     guifg=#f5f5f5 guibg=#005f00 gui=NONE
-hi DiffChange  guifg=NONE    guibg=#303030 gui=NONE
-hi DiffDelete  guifg=#ff0000 guibg=#5f0000 gui=NONE
-hi DiffText    guifg=NONE    guibg=#4e4e4e gui=NONE
+hi DiffAdd      guifg=#f5f5f5 guibg=#005f00 gui=NONE
+hi DiffChange   guifg=NONE    guibg=#303030 gui=NONE
+hi DiffDelete   guifg=#ff0000 guibg=#5f0000 gui=NONE
+hi DiffText     guifg=NONE    guibg=#4e4e4e gui=NONE
 
 " Directories
-hi Directory  guifg=#0000ff guibg=NONE     gui=NONE
+hi Directory    guifg=#0000ff guibg=NONE    gui=NONE
 
 " ==============================================================================
 " Additional Highlighting
