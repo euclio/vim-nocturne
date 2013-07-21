@@ -106,7 +106,7 @@ hi DiffDelete   guifg=#ff0000 guibg=#5f0000 gui=NONE
 hi DiffText     guifg=NONE    guibg=#4e4e4e gui=NONE
 
 " Directories
-hi Directory    guifg=#0000ff guibg=NONE    gui=NONE
+hi Directory    guifg=#00d7d7 guibg=NONE    gui=NONE
 
 " ==============================================================================
 " Additional Highlighting
