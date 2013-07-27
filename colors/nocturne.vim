@@ -75,8 +75,8 @@ hi NonText      guifg=#0000ff guibg=NONE    gui=bold
 hi SpecialKey   guifg=#ffffff guibg=NONE    gui=bold
 
 " Popup Menu
-hi Pmenu        guifg=#000000 guibg=#d0d0d0 gui=NONE
-hi PmenuSel     guifg=#000000 guibg=#d700ff gui=bold
+hi Pmenu        guifg=#d0d0d0 guibg=#1c1c1c gui=NONE
+hi PmenuSel     guifg=#000000 guibg=#d0d0d0 gui=NONE
 hi PmenuSbar    guifg=#000000 guibg=#000000 gui=NONE
 hi PmenuThumb   guifg=#000000 guibg=#000000 gui=NONE
 
