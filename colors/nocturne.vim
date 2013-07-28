@@ -35,7 +35,6 @@ hi Statement    guifg=#ffff00 guibg=NONE    gui=bold
 " Preprocessor directives
 hi PreProc      guifg=#ff0000 guibg=NONE    gui=NONE
 hi Include      guifg=#875fd7 guibg=NONE    gui=NONE
-hi Define       guifg=#00ff00 guibg=NONE    gui=NONE
 
 " Types
 hi Type         guifg=#00ff00 guibg=NONE    gui=NONE
