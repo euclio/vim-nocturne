@@ -102,7 +102,7 @@ hi SignColumn   guifg=#d0d0d0 guibg=#303030 gui=NONE
 hi DiffAdd      guifg=#f5f5f5 guibg=#005f00 gui=NONE
 hi DiffChange   guifg=NONE    guibg=#303030 gui=NONE
 hi DiffDelete   guifg=#ff0000 guibg=#5f0000 gui=NONE
-hi DiffText     guifg=NONE    guibg=#4e4e4e gui=NONE
+hi DiffText     guifg=NONE    guibg=#767676 gui=NONE
 
 " Directories
 hi Directory    guifg=#00d7d7 guibg=NONE    gui=NONE
