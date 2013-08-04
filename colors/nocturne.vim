@@ -69,6 +69,11 @@ hi CursorLineNr guifg=#4e4e4e guibg=NONE    gui=NONE
 hi! link        CursorColumn  ColorColumn
 hi! link        CursorLine    ColorColumn
 
+" Tabs
+hi TabLine      guifg=#585858 guibg=#1c1c1c gui=underline
+hi TabLineSel   guifg=#f5f5f5 guibg=#4e4e4e gui=bold
+hi TabLineFill  guifg=#585858 guibg=#1c1c1c gui=underline
+
 " Non-display characters
 hi NonText      guifg=#0000ff guibg=NONE    gui=bold
 hi SpecialKey   guifg=#ffffff guibg=NONE    gui=bold
