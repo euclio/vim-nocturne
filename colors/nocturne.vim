@@ -95,6 +95,7 @@ hi StatusLine   guifg=#f5f5f5 guibg=#262626 gui=NONE
 hi StatusLineNC guifg=#585858 guibg=#1c1c1c gui=NONE
 hi MoreMsg      guifg=#00ff00 guibg=NONE    gui=NONE
 hi! link        ModeMsg       MoreMsg
+hi Title        guifg=#f5f5f5 guibg=NONE    gui=bold
 
 " Folds
 hi Folded       guifg=#d0d0d0 guibg=#303030 gui=NONE
