@@ -110,6 +110,10 @@ hi DiffChange   guifg=NONE    guibg=#303030 gui=NONE
 hi DiffDelete   guifg=#ff0000 guibg=#5f0000 gui=NONE
 hi DiffText     guifg=NONE    guibg=#767676 gui=NONE
 
+" For diffs in git commits
+hi! link        diffRemoved   DiffDelete
+hi! link        diffAdded     DiffAdd
+
 " Directories
 hi Directory    guifg=#00d7d7 guibg=NONE    gui=NONE
 
