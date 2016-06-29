@@ -11,25 +11,29 @@ This is my personal colorscheme, so colors may change as I see fit. That said,
 I don't anticipate any major changes.
 
 ##Requirements
-Currently, the colorscheme has been tested in gVim 7.3+. It also works in a
-256-color terminal with the
-[CSApprox](http://www.vim.org/scripts/script.php?script_id=2390)
-plugin.
+
+Nocturne works in gvim by default.
+
+If you wish to use nocturne in a terminal, you will either need to either:
+
+* Provided you have a recent version of vim and a true-color terminal, add `set
+   termguicolors` in your `.vimrc`.
+
+* Use the [CSApprox] plugin.
 
 ##Installation
-I suggest that you use [vundle](http://github.com/gmarik/vundle) to manage
-nocturne. Add
 
-    Bundle 'euclio/vim-nocturne'
+I suggest that you use [vim-plug] to manage nocturne. Add
 
-to your .vimrc and run `:BundleInstall` to install the necessary files.
+    Plugin 'euclio/vim-nocturne'
 
-If you'd rather install manually, download
-[nocturne.vim](colors/nocturne.vim?raw=true) and copy the file into
-`~/.vim/colors` on OSX or Linux. For Windows, copy the file into
+to your `.vimrc` and run `:PlugInstall` to install the necessary files.
+
+If you'd rather install manually, download [nocturne.vim][nocturne-raw] and copy
+the file into `~/.vim/colors` on OSX or Linux. For Windows, copy the file into
 `C:\Users\<username>\vimfiles\colors`.
 
-After nocturne is installed, add `colorscheme nocturne` to your .vimrc to
+After nocturne is installed, add `colorscheme nocturne` to your `.vimrc` to
 enable it.
 
 ##Sample Images
@@ -41,3 +45,7 @@ enable it.
 
 ###C
 ![C](sample/c.png?raw=true)
+
+[CSApprox]: http://www.vim.org/scripts/script.php?script_id=2390
+[vim-plug]: http://github.com/junegunn/vim-plug
+[nocturne-raw]: colors/nocturne.vim?raw=true
