@@ -1,16 +1,13 @@
-#nocturne.vim
-A dark, high-contrast colorscheme for Vim.
+# nocturne.vim
 
-Nocturne: where your code shines like the moon and your interface
-fades into the night. This is the result of my search for the perfect 
-colorscheme: I made my own!
+A dark, high-contrast colorscheme for Vim.
 
 ![Syntax Groups](sample/groups.png?raw=true)
 
 This is my personal colorscheme, so colors may change as I see fit. That said,
 I don't anticipate any major changes.
 
-##Requirements
+## Requirements
 
 Nocturne works in gvim by default.
 
@@ -21,7 +18,7 @@ If you wish to use nocturne in a terminal, you will either need to either:
 
 * Use the [CSApprox] plugin.
 
-##Installation
+## Installation
 
 I suggest that you use [vim-plug] to manage nocturne. Add
 
@@ -36,14 +33,15 @@ the file into `~/.vim/colors` on OSX or Linux. For Windows, copy the file into
 After nocturne is installed, add `colorscheme nocturne` to your `.vimrc` to
 enable it.
 
-##Sample Images
-###Python
+## Sample Images
+
+### Python
 ![Python](sample/python.png?raw=true)
 
-###Java
+### Java
 ![Java](sample/java.png?raw=true)
 
-###C
+### C
 ![C](sample/c.png?raw=true)
 
 [CSApprox]: http://www.vim.org/scripts/script.php?script_id=2390
