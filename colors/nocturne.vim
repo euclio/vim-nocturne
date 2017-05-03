@@ -102,7 +102,7 @@ hi Folded       guifg=#d0d0d0 guibg=#303030 gui=NONE
 hi FoldColumn   guifg=#d0d0d0 guibg=NONE    gui=NONE
 
 " Signs
-hi SignColumn   guifg=#d0d0d0 guibg=#303030 gui=NONE
+hi SignColumn   guifg=#d0d0d0 guibg=#1c1c1c gui=NONE
 
 " Vimdiff
 hi DiffAdd      guifg=#f5f5f5 guibg=#005f00 gui=NONE
