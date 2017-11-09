@@ -82,6 +82,10 @@ hi PmenuSel     guifg=#000000 guibg=#d0d0d0 gui=NONE
 hi PmenuSbar    guifg=NONE    guibg=#444444 gui=NONE
 hi PmenuThumb   guifg=NONE    guibg=#767676 gui=NONE
 
+" Quickfix
+hi QuickFixLine guifg=NONE    guibg=#303030 gui=NONE
+hi! link        qfLineNr      Special
+
 " Visual Mode
 hi Visual       guifg=NONE    guibg=#303030 gui=NONE
 
