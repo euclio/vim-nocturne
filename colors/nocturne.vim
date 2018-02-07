@@ -61,7 +61,7 @@ hi Search       guifg=#4e4e4e guibg=#ffff00 gui=NONE
 " Boundaries
 hi VertSplit    guifg=#4e4e4e guibg=#1c1c1c gui=reverse
 hi Wildmenu     guifg=#000000 guibg=#ffff00 gui=bold
-hi ColorColumn  guifg=NONE    guibg=#1c1c1c gui=NONE
+hi ColorColumn  guifg=NONE    guibg=#262626 gui=NONE
 hi LineNr       guifg=#303030 guibg=NONE    gui=NONE
 hi CursorLineNr guifg=#4e4e4e guibg=NONE    gui=NONE
 hi! link        CursorColumn  ColorColumn
