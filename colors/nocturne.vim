@@ -119,7 +119,7 @@ hi! link        diffRemoved   DiffDelete
 hi! link        diffAdded     DiffAdd
 
 " Directories
-hi Directory    guifg=#00d7d7 guibg=NONE    gui=NONE
+hi! link Directory String
 
 " ==============================================================================
 " Additional Highlighting
